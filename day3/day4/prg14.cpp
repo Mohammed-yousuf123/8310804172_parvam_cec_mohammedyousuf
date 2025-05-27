@@ -12,4 +12,4 @@ int main()
     a=a^b; 
     cout<<"after swaping a="<<a<<" b="<<b<<endl;
     return 0;
-}
+}j

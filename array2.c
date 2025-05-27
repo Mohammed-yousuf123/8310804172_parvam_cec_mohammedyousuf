@@ -7,4 +7,4 @@ int main()
 
     for(i=0;i<size;printf("%d ",&a[i],sum+=a[i++]));
     printf("sum of all elements is %d",sum);
-}4
+}
