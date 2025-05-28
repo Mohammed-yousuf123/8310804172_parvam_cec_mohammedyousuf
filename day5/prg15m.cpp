@@ -12,7 +12,7 @@ class A
         int c = a*b;
         cout<<"returning c"<<endl;
         return c;
-    }
+    } 
 };
 class B : public A
 {
@@ -26,7 +26,11 @@ class B : public A
 };
 int main()
 {
+    cout<<"in main"<<endl;
     B b;
+    cout<<"b.display function"<<endl;
     b.display();
+    cout<<"b. mul function"<<endl;
+    b.mul();
     return 0;
 }

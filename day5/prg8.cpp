@@ -12,7 +12,7 @@ int main()
         for (int j=1; j<=i; j++)
         {
             cout<<ch<<" "; 
-            ch--; 
+            ch++; 
         }
         cout<<endl; 
     }
