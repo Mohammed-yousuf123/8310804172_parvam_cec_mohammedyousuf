@@ -19,4 +19,4 @@ int main()
     int result = calc.add(num1, num2);
     cout << "The sum is: " << result << endl;
     return 0;
-}
+} 
